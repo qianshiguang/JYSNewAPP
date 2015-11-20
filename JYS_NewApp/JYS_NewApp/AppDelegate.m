@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JYS_MyDeviceViewController.h"
+#import "JYS_FriendsDeviceViewController.h"
+#import "JYS_TimePhotosViewController.h"
+#import "JYS_SmartHomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +19,63 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]init];
+    [self setTabbarViewController];
+    [self.window setRootViewController:self.myTabbar];
+    [self.window makeKeyAndVisible];
     return YES;
+}
+- (void)setTabbarViewController
+{
+    JYS_MyDeviceViewController *MyDeviceVC = [[JYS_MyDeviceViewController alloc] init];
+    JYS_CustomNavigationController *MyDeviceVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:MyDeviceVC];
+    
+    JYS_FriendsDeviceViewController *FriendsDevice = [[JYS_FriendsDeviceViewController alloc] init];
+    JYS_CustomNavigationController *FriendsDeviceVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:FriendsDevice];
+    
+    JYS_TimePhotosViewController *TimePhotosVC = [[JYS_TimePhotosViewController alloc] init];
+    JYS_CustomNavigationController *TimePhotosVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:TimePhotosVC];
+    JYS_SmartHomeViewController *SmartHomeVC = [[JYS_SmartHomeViewController alloc] init];
+    JYS_CustomNavigationController *SmartHomeVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:SmartHomeVC];
+    
+    JYS_MineTabBarController *myTabbar = [[JYS_MineTabBarController alloc] init];
+    [self customizeTabBarForController:myTabbar];
+    [myTabbar setViewControllers:@[MyDeviceVCNav,
+                                   FriendsDeviceVCNav,
+                                   TimePhotosVCNav,
+                                   SmartHomeVCNav
+                                   ]];
+    self.myTabbar = myTabbar;
+}
+- (void)customizeTabBarForController:(JYS_MineTabBarController *)tabBarController {
+    
+    NSDictionary *dict1 = @{
+                            JYSTabBarItemTitle : @"我的设备",
+                            JYSTabBarItemImage : @"TAB1",
+                            JYSTabBarItemSelectedImage : @"TAB1_copy",
+                            };
+    NSDictionary *dict2 = @{
+                            JYSTabBarItemTitle : @"好友设备",
+                            JYSTabBarItemImage : @"TAB2",
+                            JYSTabBarItemSelectedImage : @"TAB2_copy",
+                            };
+    NSDictionary *dict3 = @{
+                            JYSTabBarItemTitle : @"时光相册",
+                            JYSTabBarItemImage : @"TAB3",
+                            JYSTabBarItemSelectedImage : @"TAB3_copy",
+                            };
+    NSDictionary *dict4 = @{
+                            JYSTabBarItemTitle : @"智能看家",
+                            JYSTabBarItemImage : @"TAB4_copy",
+                            JYSTabBarItemSelectedImage : @"TAB4_copy",
+                            };
+    NSArray *tabBarItemsAttributes = @[
+                                       dict1,
+                                       dict2,
+                                       dict3,
+                                       dict4
+                                       ];
+    tabBarController.tabBarItemsAttributes = tabBarItemsAttributes;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
