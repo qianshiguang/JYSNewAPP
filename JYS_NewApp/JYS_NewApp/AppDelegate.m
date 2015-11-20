@@ -66,7 +66,7 @@
                             };
     NSDictionary *dict4 = @{
                             JYSTabBarItemTitle : @"智能看家",
-                            JYSTabBarItemImage : @"TAB4_copy",
+                            JYSTabBarItemImage : @"TAB4",
                             JYSTabBarItemSelectedImage : @"TAB4_copy",
                             };
     NSArray *tabBarItemsAttributes = @[
