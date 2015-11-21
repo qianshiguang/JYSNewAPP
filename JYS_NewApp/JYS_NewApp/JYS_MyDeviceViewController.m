@@ -16,22 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"logo_ios7"]];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"add"] style:UIBarButtonItemStylePlain target:self action:@selector(helpPage)];
+    
+    self.navigationItem.rightBarButtonItem = rightBarItem;
+
+    UIBarButtonItem *eftBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"card@1x"] style:UIBarButtonItemStylePlain target:self action:@selector(helpPage)];
+    
+    self.navigationItem.leftBarButtonItem = eftBarItem;
+
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
