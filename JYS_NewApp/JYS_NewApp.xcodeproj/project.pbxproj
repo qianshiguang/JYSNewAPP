@@ -24,7 +24,6 @@
 		AE9E5C351BFF0E500061C16B /* JYS_TimePhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C341BFF0E500061C16B /* JYS_TimePhotosViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AE9E5C381BFF0E680061C16B /* JYS_SmartHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C371BFF0E680061C16B /* JYS_SmartHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AE9E5C3B1BFF0EA70061C16B /* JYS_CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C3A1BFF0EA70061C16B /* JYS_CustomNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		AE9E5C3D1BFF15A10061C16B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9E5C3C1BFF15A10061C16B /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +79,6 @@
 		AE9E5C371BFF0E680061C16B /* JYS_SmartHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_SmartHomeViewController.m; sourceTree = "<group>"; };
 		AE9E5C391BFF0EA70061C16B /* JYS_CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_CustomNavigationController.h; sourceTree = "<group>"; };
 		AE9E5C3A1BFF0EA70061C16B /* JYS_CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_CustomNavigationController.m; sourceTree = "<group>"; };
-		AE9E5C3C1BFF15A10061C16B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +141,6 @@
 				AE9E5BF51BFEFF180061C16B /* Assets.xcassets */,
 				AE9E5BF71BFEFF180061C16B /* LaunchScreen.storyboard */,
 				AE9E5BFA1BFEFF180061C16B /* Info.plist */,
-				AE9E5C3C1BFF15A10061C16B /* Images.xcassets */,
 				AE9E5BE91BFEFF180061C16B /* Supporting Files */,
 			);
 			path = JYS_NewApp;
@@ -326,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9E5BF91BFEFF180061C16B /* LaunchScreen.storyboard in Resources */,
-				AE9E5C3D1BFF15A10061C16B /* Images.xcassets in Resources */,
 				AE9E5BF61BFEFF180061C16B /* Assets.xcassets in Resources */,
 				AE9E5BF41BFEFF180061C16B /* Main.storyboard in Resources */,
 			);
@@ -596,6 +592,7 @@
 				AE9E5C151BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9E5C161BFEFF180061C16B /* Build configuration list for PBXNativeTarget "JYS_NewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +601,7 @@
 				AE9E5C181BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9E5C191BFEFF180061C16B /* Build configuration list for PBXNativeTarget "JYS_NewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +610,7 @@
 				AE9E5C1B1BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
