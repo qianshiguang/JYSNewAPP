@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1B6E031C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B6E021C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AE1B6E081C02FC5D00330A94 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1B6E041C02FC5D00330A94 /* 0.jpg */; settings = {ASSET_TAGS = (); }; };
+		AE1B6E091C02FC5D00330A94 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE1B6E051C02FC5D00330A94 /* 1.jpeg */; settings = {ASSET_TAGS = (); }; };
+		AE1B6E0A1C02FC5D00330A94 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1B6E061C02FC5D00330A94 /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
+		AE1B6E0B1C02FC5D00330A94 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1B6E071C02FC5D00330A94 /* 3.jpg */; settings = {ASSET_TAGS = (); }; };
+		AE1B6E0E1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B6E0D1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AE9E5BEB1BFEFF180061C16B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5BEA1BFEFF180061C16B /* main.m */; };
 		AE9E5BEE1BFEFF180061C16B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5BED1BFEFF180061C16B /* AppDelegate.m */; };
 		AE9E5BF11BFEFF180061C16B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5BF01BFEFF180061C16B /* ViewController.m */; };
@@ -44,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1B6E011C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_DeviceInfoTableViewCell.h; sourceTree = "<group>"; };
+		AE1B6E021C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_DeviceInfoTableViewCell.m; sourceTree = "<group>"; };
+		AE1B6E041C02FC5D00330A94 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		AE1B6E051C02FC5D00330A94 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		AE1B6E061C02FC5D00330A94 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AE1B6E071C02FC5D00330A94 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		AE1B6E0C1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_FriendsDeviceTableViewController.h; sourceTree = "<group>"; };
+		AE1B6E0D1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_FriendsDeviceTableViewController.m; sourceTree = "<group>"; };
 		AE9E5BE61BFEFF180061C16B /* JYS_NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYS_NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9E5BEA1BFEFF180061C16B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE9E5BEC1BFEFF180061C16B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +163,10 @@
 		AE9E5BE91BFEFF180061C16B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE1B6E041C02FC5D00330A94 /* 0.jpg */,
+				AE1B6E051C02FC5D00330A94 /* 1.jpeg */,
+				AE1B6E061C02FC5D00330A94 /* 2.jpg */,
+				AE1B6E071C02FC5D00330A94 /* 3.jpg */,
 				AE9E5BEA1BFEFF180061C16B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -187,8 +205,12 @@
 			children = (
 				AE9E5C2D1BFF0E120061C16B /* JYS_MyDeviceViewController.h */,
 				AE9E5C2E1BFF0E120061C16B /* JYS_MyDeviceViewController.m */,
+				AE1B6E011C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.h */,
+				AE1B6E021C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.m */,
 				AE9E5C301BFF0E320061C16B /* JYS_FriendsDeviceViewController.h */,
 				AE9E5C311BFF0E320061C16B /* JYS_FriendsDeviceViewController.m */,
+				AE1B6E0C1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.h */,
+				AE1B6E0D1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.m */,
 				AE9E5C331BFF0E500061C16B /* JYS_TimePhotosViewController.h */,
 				AE9E5C341BFF0E500061C16B /* JYS_TimePhotosViewController.m */,
 				AE9E5C361BFF0E680061C16B /* JYS_SmartHomeViewController.h */,
@@ -322,8 +344,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1B6E0A1C02FC5D00330A94 /* 2.jpg in Resources */,
+				AE1B6E091C02FC5D00330A94 /* 1.jpeg in Resources */,
+				AE1B6E081C02FC5D00330A94 /* 0.jpg in Resources */,
 				AE9E5BF91BFEFF180061C16B /* LaunchScreen.storyboard in Resources */,
 				AE9E5BF61BFEFF180061C16B /* Assets.xcassets in Resources */,
+				AE1B6E0B1C02FC5D00330A94 /* 3.jpg in Resources */,
 				AE9E5BF41BFEFF180061C16B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +375,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1B6E031C02F5E900330A94 /* JYS_DeviceInfoTableViewCell.m in Sources */,
 				AE9E5BF11BFEFF180061C16B /* ViewController.m in Sources */,
 				AE9E5C321BFF0E320061C16B /* JYS_FriendsDeviceViewController.m in Sources */,
 				AE9E5C3B1BFF0EA70061C16B /* JYS_CustomNavigationController.m in Sources */,
+				AE1B6E0E1C02FDBF00330A94 /* JYS_FriendsDeviceTableViewController.m in Sources */,
 				AE9E5C2F1BFF0E120061C16B /* JYS_MyDeviceViewController.m in Sources */,
 				AE9E5C381BFF0E680061C16B /* JYS_SmartHomeViewController.m in Sources */,
 				AE9E5C351BFF0E500061C16B /* JYS_TimePhotosViewController.m in Sources */,

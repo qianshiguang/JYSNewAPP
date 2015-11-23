@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JYS_MyDeviceViewController : UIViewController
+@interface JYS_MyDeviceViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+{
+    UITableView *myTableView;
+}
+@property(nonatomic,strong)UITableView *myTableView;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "JYS_MyDeviceViewController.h"
-#import "JYS_FriendsDeviceViewController.h"
+#import "JYS_FriendsDeviceTableViewController.h"
 #import "JYS_TimePhotosViewController.h"
 #import "JYS_SmartHomeViewController.h"
 @interface AppDelegate ()
@@ -21,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]init];
     [self setTabbarViewController];
+    self.window.frame = [UIScreen mainScreen].bounds;
     [self.window setRootViewController:self.myTabbar];
     [self.window makeKeyAndVisible];
     return YES;
@@ -30,11 +31,12 @@
     JYS_MyDeviceViewController *MyDeviceVC = [[JYS_MyDeviceViewController alloc] init];
     JYS_CustomNavigationController *MyDeviceVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:MyDeviceVC];
     
-    JYS_FriendsDeviceViewController *FriendsDevice = [[JYS_FriendsDeviceViewController alloc] init];
+    JYS_FriendsDeviceTableViewController *FriendsDevice = [[JYS_FriendsDeviceTableViewController alloc] init];
     JYS_CustomNavigationController *FriendsDeviceVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:FriendsDevice];
     
     JYS_TimePhotosViewController *TimePhotosVC = [[JYS_TimePhotosViewController alloc] init];
     JYS_CustomNavigationController *TimePhotosVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:TimePhotosVC];
+    
     JYS_SmartHomeViewController *SmartHomeVC = [[JYS_SmartHomeViewController alloc] init];
     JYS_CustomNavigationController *SmartHomeVCNav = [[JYS_CustomNavigationController alloc] initWithRootViewController:SmartHomeVC];
     
