@@ -15,6 +15,15 @@
 		AE9E5BF91BFEFF180061C16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9E5BF71BFEFF180061C16B /* LaunchScreen.storyboard */; };
 		AE9E5C041BFEFF180061C16B /* JYS_NewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C031BFEFF180061C16B /* JYS_NewAppTests.m */; };
 		AE9E5C0F1BFEFF180061C16B /* JYS_NewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C0E1BFEFF180061C16B /* JYS_NewAppUITests.m */; };
+		AE9E5C1E1BFF01EB0061C16B /* JYS_ConstantsUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C1D1BFF01EB0061C16B /* JYS_ConstantsUIUtils.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C261BFF04F40061C16B /* JYS_MineTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C251BFF04F40061C16B /* JYS_MineTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C291BFF053C0061C16B /* JYS_SetTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C281BFF053C0061C16B /* JYS_SetTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C2C1BFF05750061C16B /* JYS_PlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C2B1BFF05750061C16B /* JYS_PlusButton.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C2F1BFF0E120061C16B /* JYS_MyDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C2E1BFF0E120061C16B /* JYS_MyDeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C321BFF0E320061C16B /* JYS_FriendsDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C311BFF0E320061C16B /* JYS_FriendsDeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C351BFF0E500061C16B /* JYS_TimePhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C341BFF0E500061C16B /* JYS_TimePhotosViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C381BFF0E680061C16B /* JYS_SmartHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C371BFF0E680061C16B /* JYS_SmartHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AE9E5C3B1BFF0EA70061C16B /* JYS_CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E5C3A1BFF0EA70061C16B /* JYS_CustomNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		AE9E5C0A1BFEFF180061C16B /* JYS_NewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYS_NewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9E5C0E1BFEFF180061C16B /* JYS_NewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYS_NewAppUITests.m; sourceTree = "<group>"; };
 		AE9E5C101BFEFF180061C16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9E5C1C1BFF01EB0061C16B /* JYS_ConstantsUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_ConstantsUIUtils.h; sourceTree = "<group>"; };
+		AE9E5C1D1BFF01EB0061C16B /* JYS_ConstantsUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_ConstantsUIUtils.m; sourceTree = "<group>"; };
+		AE9E5C1F1BFF02A10061C16B /* JSY_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSY_PrefixHeader.pch; sourceTree = "<group>"; };
+		AE9E5C241BFF04F40061C16B /* JYS_MineTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_MineTabBarController.h; sourceTree = "<group>"; };
+		AE9E5C251BFF04F40061C16B /* JYS_MineTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_MineTabBarController.m; sourceTree = "<group>"; };
+		AE9E5C271BFF053C0061C16B /* JYS_SetTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_SetTabBar.h; sourceTree = "<group>"; };
+		AE9E5C281BFF053C0061C16B /* JYS_SetTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_SetTabBar.m; sourceTree = "<group>"; };
+		AE9E5C2A1BFF05750061C16B /* JYS_PlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_PlusButton.h; sourceTree = "<group>"; };
+		AE9E5C2B1BFF05750061C16B /* JYS_PlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_PlusButton.m; sourceTree = "<group>"; };
+		AE9E5C2D1BFF0E120061C16B /* JYS_MyDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_MyDeviceViewController.h; sourceTree = "<group>"; };
+		AE9E5C2E1BFF0E120061C16B /* JYS_MyDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_MyDeviceViewController.m; sourceTree = "<group>"; };
+		AE9E5C301BFF0E320061C16B /* JYS_FriendsDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_FriendsDeviceViewController.h; sourceTree = "<group>"; };
+		AE9E5C311BFF0E320061C16B /* JYS_FriendsDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_FriendsDeviceViewController.m; sourceTree = "<group>"; };
+		AE9E5C331BFF0E500061C16B /* JYS_TimePhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_TimePhotosViewController.h; sourceTree = "<group>"; };
+		AE9E5C341BFF0E500061C16B /* JYS_TimePhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_TimePhotosViewController.m; sourceTree = "<group>"; };
+		AE9E5C361BFF0E680061C16B /* JYS_SmartHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_SmartHomeViewController.h; sourceTree = "<group>"; };
+		AE9E5C371BFF0E680061C16B /* JYS_SmartHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_SmartHomeViewController.m; sourceTree = "<group>"; };
+		AE9E5C391BFF0EA70061C16B /* JYS_CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYS_CustomNavigationController.h; sourceTree = "<group>"; };
+		AE9E5C3A1BFF0EA70061C16B /* JYS_CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYS_CustomNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +131,12 @@
 			children = (
 				AE9E5BEC1BFEFF180061C16B /* AppDelegate.h */,
 				AE9E5BED1BFEFF180061C16B /* AppDelegate.m */,
+				AE9E5C201BFF041E0061C16B /* 公用类 */,
 				AE9E5BEF1BFEFF180061C16B /* ViewController.h */,
 				AE9E5BF01BFEFF180061C16B /* ViewController.m */,
+				AE9E5C221BFF04600061C16B /* 自定义TabBar */,
+				AE9E5C231BFF04630061C16B /* 自定义导航栏 */,
+				AE9E5C211BFF04420061C16B /* 4个主界面 */,
 				AE9E5BF21BFEFF180061C16B /* Main.storyboard */,
 				AE9E5BF51BFEFF180061C16B /* Assets.xcassets */,
 				AE9E5BF71BFEFF180061C16B /* LaunchScreen.storyboard */,
@@ -138,6 +170,53 @@
 				AE9E5C101BFEFF180061C16B /* Info.plist */,
 			);
 			path = JYS_NewAppUITests;
+			sourceTree = "<group>";
+		};
+		AE9E5C201BFF041E0061C16B /* 公用类 */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E5C1C1BFF01EB0061C16B /* JYS_ConstantsUIUtils.h */,
+				AE9E5C1D1BFF01EB0061C16B /* JYS_ConstantsUIUtils.m */,
+				AE9E5C1F1BFF02A10061C16B /* JSY_PrefixHeader.pch */,
+			);
+			name = "公用类";
+			sourceTree = "<group>";
+		};
+		AE9E5C211BFF04420061C16B /* 4个主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E5C2D1BFF0E120061C16B /* JYS_MyDeviceViewController.h */,
+				AE9E5C2E1BFF0E120061C16B /* JYS_MyDeviceViewController.m */,
+				AE9E5C301BFF0E320061C16B /* JYS_FriendsDeviceViewController.h */,
+				AE9E5C311BFF0E320061C16B /* JYS_FriendsDeviceViewController.m */,
+				AE9E5C331BFF0E500061C16B /* JYS_TimePhotosViewController.h */,
+				AE9E5C341BFF0E500061C16B /* JYS_TimePhotosViewController.m */,
+				AE9E5C361BFF0E680061C16B /* JYS_SmartHomeViewController.h */,
+				AE9E5C371BFF0E680061C16B /* JYS_SmartHomeViewController.m */,
+			);
+			name = "4个主界面";
+			sourceTree = "<group>";
+		};
+		AE9E5C221BFF04600061C16B /* 自定义TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E5C241BFF04F40061C16B /* JYS_MineTabBarController.h */,
+				AE9E5C251BFF04F40061C16B /* JYS_MineTabBarController.m */,
+				AE9E5C271BFF053C0061C16B /* JYS_SetTabBar.h */,
+				AE9E5C281BFF053C0061C16B /* JYS_SetTabBar.m */,
+				AE9E5C2A1BFF05750061C16B /* JYS_PlusButton.h */,
+				AE9E5C2B1BFF05750061C16B /* JYS_PlusButton.m */,
+			);
+			name = "自定义TabBar";
+			sourceTree = "<group>";
+		};
+		AE9E5C231BFF04630061C16B /* 自定义导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E5C391BFF0EA70061C16B /* JYS_CustomNavigationController.h */,
+				AE9E5C3A1BFF0EA70061C16B /* JYS_CustomNavigationController.m */,
+			);
+			name = "自定义导航栏";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +350,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9E5BF11BFEFF180061C16B /* ViewController.m in Sources */,
+				AE9E5C321BFF0E320061C16B /* JYS_FriendsDeviceViewController.m in Sources */,
+				AE9E5C3B1BFF0EA70061C16B /* JYS_CustomNavigationController.m in Sources */,
+				AE9E5C2F1BFF0E120061C16B /* JYS_MyDeviceViewController.m in Sources */,
+				AE9E5C381BFF0E680061C16B /* JYS_SmartHomeViewController.m in Sources */,
+				AE9E5C351BFF0E500061C16B /* JYS_TimePhotosViewController.m in Sources */,
 				AE9E5BEE1BFEFF180061C16B /* AppDelegate.m in Sources */,
+				AE9E5C1E1BFF01EB0061C16B /* JYS_ConstantsUIUtils.m in Sources */,
+				AE9E5C291BFF053C0061C16B /* JYS_SetTabBar.m in Sources */,
 				AE9E5BEB1BFEFF180061C16B /* main.m in Sources */,
+				AE9E5C2C1BFF05750061C16B /* JYS_PlusButton.m in Sources */,
+				AE9E5C261BFF04F40061C16B /* JYS_MineTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,7 +501,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JYS_NewApp/JSY_PrefixHeader.pch";
 				INFOPLIST_FILE = JYS_NewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JYS-NewApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +515,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JYS_NewApp/JSY_PrefixHeader.pch";
 				INFOPLIST_FILE = JYS_NewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JYS-NewApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +592,7 @@
 				AE9E5C151BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9E5C161BFEFF180061C16B /* Build configuration list for PBXNativeTarget "JYS_NewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +601,7 @@
 				AE9E5C181BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9E5C191BFEFF180061C16B /* Build configuration list for PBXNativeTarget "JYS_NewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +610,7 @@
 				AE9E5C1B1BFEFF180061C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
