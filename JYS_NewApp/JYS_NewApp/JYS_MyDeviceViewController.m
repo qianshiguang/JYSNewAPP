@@ -16,22 +16,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"logo_ios7"]];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"add"] style:UIBarButtonItemStylePlain target:self action:@selector(helpPage:)];
+    rightBarItem.tintColor = self.view.tintColor ;
+    rightBarItem.tag = 1;
+    self.navigationItem.rightBarButtonItem = rightBarItem;
+
+    UIBarButtonItem *eftBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"card"] style:UIBarButtonItemStylePlain target:self action:@selector(helpPage:)];
+    eftBarItem.tintColor = self.view.tintColor ;
+    eftBarItem.tag = 0;
+
+    self.navigationItem.leftBarButtonItem = eftBarItem;
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
+- (void)helpPage:(UIBarButtonItem *)sender
+{
+    if (sender.tag == 0) {
+        NSLog(@"更多");
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    }else{
+    
+        NSLog(@"添加");
+
+    }
 }
-*/
 
 @end
